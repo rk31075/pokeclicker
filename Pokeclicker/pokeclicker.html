@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Bienvenue sur Pokeclicker</title>
+            <link rel="stylesheet" href="css/style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+            <meta charset = "utf-8">
+            <script src="js/script.js"></script>
+            <link rel="icon" href="images/balls/pokeball.gif" />
+
+        </head>
+
+        <body>
+
+                <div class="container">
+                                <div class="section-gauche">
+                                        <h1>Pokédex :</h1>
+                                     
+                                        <img class="pokedex" src="images/important/pokedex.gif">
+
+                                </div>
+
+
+                                <div class="section-milieu">
+                                                        <header>      
+                                                                <a href="pokeclicker.html"> <img class="banner" src="images/important/banner.png"> </a>
+                                                        </header> 
+                                                        <a onclick="addGold2(), displayGolds()"> <img class="img_ball" src="images/balls/pokeball.gif"></a> 
+                                                        <section id="gold" class="displayGold">  
+                                                                        <label>You currently have : </label>
+                                                                        <span id="pokedollarcount"> </span><br><br>
+                                                                        <label>Your $ per seconds : </label>
+                                                                        <span id="pps"> </span> <br> <br>
+                                                                        <label> Your clicks produces : </label>
+                                                                        <span id="clicks"> </span>
+                                                                        <br><br>
+                                                                <div class="buttons">
+                                                                <button class="buttons"> <a href=""  onclick="savePokedex()"> <img class="buttons" src="images/important/save.png"></a> </button>
+                                                                <button class="buttons"> <a href=""  onclick="loadPokedex()"> <img  class="buttons" src="images/important/load.png"></a> </button>
+                                                                </div>
+
+                                                        </section>
+                                </div>  
+
+
+                                <div class="section-droite"> 
+                                        
+                                                <img class="pokemon_store" src="images/important/pokemon_store.png">
+                                                        <div class="store">
+                                                                <img class="pokecoin" src="images/important/pokecoin.png">
+                                                                <img class="pokemon_center" src="images/important/pokemon_center.png">
+                                                                <img class="pokecoin" src="images/important/pokecoin.png">
+                                                        </div>
+                                                        <div class="pokemons">
+                                                                <h2>Pokémons</h2>                               
+                                                                <div class="bulbasaur">
+                                                                        <img src="images/pokemons/bulbasaur.gif" class="img_bulbasaur">
+                                                                        <div class="bulbasaur_stats">
+                                                                                <br>
+                                                                                <p> Bulbasaur's cost :  <span id="bulbasaur_cost"> </span> </p> <br>
+                                                                                <p> Bulbasaur's $ per second :  <span id="bulbasaur_pps"> </span> </p> <br>
+                                                                                <p> Number of Bulbasaur caught :  <span id="bulbasaur_owned"> </span> </p>
+                                                                                <button class="buttons"> <a href="#"  onclick="buyPokemon(0);"> <img class="buttons" src="images/important/buy.png"></a> </button>
+                                                                        </div>
+                                                                </div>
+                                                                
+                                                                <div class="squirtle">
+                                                                        <img src="images/pokemons/squirtle.gif" class="img_squirtle">
+                                                                        <div class="squirtle_stats">
+                                                                                <br>
+                                                                                <p> Squirtle's cost :  <span id="squirtle_cost"> </span> </p> <br>
+                                                                                <p> Squirtle's $ per second :  <span id="squirtle_pps"> </span> </p> <br>
+                                                                                <p> Number of Squirtle caught  :  <span id="squirtle_owned"> </span> </p>
+                                                                                <button class="buttons"> <a href="#"  onclick="buyPokemon(1);"> <img class="buttons" src="images/important/buy.png"></a> </button>
+                                                                        </div>
+                                                                </div>
+                                                                
+                                                                <div class="charmander">
+                                                                        <img src="images/pokemons/charmander.gif" class="img_charmander">
+                                                                        <div class="charmander_stats">
+                                                                                <br>
+                                                                                <p> Charmander's cost :  <span id="charmander_cost"> </span> </p> <br>
+                                                                                <p> Charmander's $ per second :  <span id="charmander_pps"> </span> </p> <br>
+                                                                                <p> Number of Charmander caught  :  <span id="charmander_owned"> </span> </p>
+                                                                                <button class="buttons"> <a href="#"  onclick="buyPokemon(2);"> <img class="buttons" src="images/important/buy.png"></a> </button>
+                                                                        </div>
+                                                                </div>
+                                                                
+                                                                <div class="pikachu">
+                                                                        <img src="images/pokemons/pikachu.gif" class="img_pikachu">
+                                                                        <div class="pikachu_stats">
+                                                                                <br>
+                                                                                <p> Pikachu's cost :  <span id="pikachu_cost"> </span> </p> <br>
+                                                                                <p> Pikachu's $ per second :  <span id="pikachu_pps"> </span> </p> <br>
+                                                                                <p> Number of Pikachu caught: <span id="pikachu_owned"> </span> </p>
+                                                                                <button class="buttons"> <a href="#"  onclick="buyPokemon(3);"> <img class="buttons" src="images/important/buy.png"></a> </button>
+                                                                        </div>
+                                                                </div>
+                                                                                                                                                                                                                                        
+                                                        </div>  
+                                        
+                                </div>
+                       
+                </div>
+                                        
+                             
+
+                
+        </body>
