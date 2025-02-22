@@ -1,7 +1,5 @@
 # POKECLICKER
 
-PREVIEW GITGHUB : https://rawcdn.githack.com/jawdaayyn/pokeclicker/698a73040f9d367a3e3d9d36c1b1cc4d02052bde/Pokeclicker/pokeclicker.html
-
 Clicker game based on pokemon's theme.
 By clicking on the pokeball, you earn pokedollars.
 When you have enough pokedollars, you can buy a pokemon which can bring you more pokedollars per second.
